@@ -1,3 +1,6 @@
+.container__benefits{
+    @include flexbox;
+}
 
 .benefit{
     width: 270px;

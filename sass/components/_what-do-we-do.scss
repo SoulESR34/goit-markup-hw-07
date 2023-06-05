@@ -2,6 +2,10 @@
     padding-bottom: 97px;
 }
 
+.what_do_we_do_images{
+    @include flexbox;
+}
+
 .what_do_we_do__description{
     display: flex;
     align-items: center;

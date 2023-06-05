@@ -1,3 +1,6 @@
+.footer-container{
+    @include flexbox;
+}
 
 .footer__logo__and__address{
     width: 231px;
@@ -5,26 +8,25 @@
 
 .footer__social__netwoks{
     margin-left: 70px;
-
-    &__netwoks p{
+    
+    .footer__social__netwoks__text{
         font-weight: bold;
         color: $color-white;
     }
+}
 
-    .social__networks{
-        margin-top: 20px;
-        &__container &__link{
-            fill: $color-white;
-            border-radius: 50px;
-            background-color: rgba(255, 255, 255, 0.10);
-        }
-    
-        &__container &__link:hover,
-        &__container &__link:focus{
-            background-color: $color-buttons-links;
-        }
+.social__networks{
+    margin-top: 20px;
+    &__container &__link{
+        fill: $color-white;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.10);
     }
 
+    &__container &__link:hover,
+    &__container &__link:focus{
+        background-color: $color-buttons-links;
+    }
 }
 
 .subscription{

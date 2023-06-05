@@ -1,7 +1,10 @@
 .customers__container{
     padding-top: 105px;
     padding-bottom: 105px;
+}
 
+.customers{
+    @include flexbox;
 }
 
 .customer{

@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import '../utils/_variables.scss';
-@import '../utils/_mixins.scss';
-@import '../components/_social-networks';
-@import '../components/_logo';
-@import '../components/_header';
-@import '../components/_backdrop';
-@import '../components/_hero';
-@import '../components/_benefits';
-@import '../components/_what-do-we-do';
-@import '../components/_team';
-@import '../components/_customers';
-@import '../components/_footer';
-@import '../components/_projects.scss';
+@import "normalize.css";
+@import '.. /utils/_variables.scss';
+@import '.. /utils/_mixins.scss';
+@import '.. /components/_social-networks';
+@import '.. /components/_logo';
+@import '.. /components/_header';
+@import '.. /components/_backdrop';
+@import '.. /components/_hero';
+@import '.. /components/_benefits';
+@import '.. /components/_what-do-we-do';
+@import '.. /components/_team';
+@import '.. /components/_customers';
+@import '.. /components/_footer';
+@import '.. /components/_projects.scss';
 
 
 
@@ -70,6 +71,12 @@ header{
 footer{
     background-color: $color-background-dark;
     color: $color-white ;
+}
+
+footer, 
+.team-section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 h2{
