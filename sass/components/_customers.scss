@@ -1,0 +1,24 @@
+.customers__container{
+    padding-top: 105px;
+    padding-bottom: 105px;
+
+}
+
+.customer{
+    padding: 12px 33px;
+    border: 1px solid $color-fill-icons; 
+    border-radius: 4px;
+    width: 170px;
+    height: 80px;
+
+    &__icon{
+        fill: $color-fill-icons;
+        width: 105px;
+        height: 55px;
+    }
+    
+    &:hover &__icon,
+    &:focus &__icon{
+        fill: $color-buttons-links;
+    }
+}
