@@ -4,7 +4,7 @@
 
 .projects__filters{
     @include flexbox;
-    margin: 0 auto;
+    justify-content: center;
     gap: 8px;
 
     .filter__button{
